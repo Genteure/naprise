@@ -152,65 +152,6 @@ namespace Naprise.Service.MailKit
 
             await client.SendAsync(mime, cancellationToken).ConfigureAwait(false);
             await client.DisconnectAsync(true, cancellationToken).ConfigureAwait(false);
-
-            // TODO build the message body
-            /*
-            var payload = new Payload
-            {
-                // TODO fill payload
-                // TODO check message.Type
-            };
-
-            var url = new Url($"{(true ? "https" : "http")}://{"localhost"}").AppendPathSegments("example");
-            var content = JsonContent.Create(payload, options: null);
-
-            cancellationToken.ThrowIfCancellationRequested();
-            var resp = await this.HttpClientFactory().PostAsync(url, content, cancellationToken);
-            var respText = await resp.Content.ReadAsStringAsync();
-            if (!resp.IsSuccessStatusCode)
-            {
-                throw new NapriseNotifyFailedException($"Failed to send notification to {nameof(MailKit)}: {resp.StatusCode}") // TODO change class name
-                {
-                    Notifier = this,
-                    Notification = message,
-                    ResponseStatus = resp.StatusCode,
-                    ResponseBody = respText,
-                };
-            }
-
-            try
-            {
-                var jobj = JsonDocument.Parse(respText);
-                // TODO parse response and check if it's successful
-                var status = jobj.RootElement.GetProperty("status").GetString();
-                if (status != "ok")
-                {
-                    var respMessage = jobj.RootElement.GetProperty("message").GetString();
-                    throw new NapriseNotifyFailedException($"Failed to send notification to {nameof(MailKit)}: \"{respMessage}\"")
-                    {
-                        Notifier = this,
-                        Notification = message,
-                        ResponseStatus = resp.StatusCode,
-                        ResponseBody = respText,
-                    };
-                }
-            }
-            catch (Exception ex)
-            {
-                throw new NapriseNotifyFailedException($"Failed to send notification to {nameof(MailKit)}", ex)
-                {
-                    Notifier = this,
-                    Notification = message,
-                    ResponseStatus = resp.StatusCode,
-                    ResponseBody = respText,
-                };
-            }
-            */
-        }
-
-        private class Payload
-        {
-            // TODO add payload
         }
 
         internal readonly struct EmailPlatform

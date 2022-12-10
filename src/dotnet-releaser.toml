@@ -19,6 +19,12 @@ kinds = ["tar"]
 rid = ["osx-x64", "osx-arm64"]
 kinds = ["tar"]
 
+[brew]
+publish = false
+
+[scoop]
+publish = false
+
 [nuget]
 publish = true
 
