@@ -1,0 +1,44 @@
+name: Service Request
+description: Request a new notification service
+title: "Add New Service: "
+labels: ["service-request", "up for grabs", "good first issue", "help wanted"]
+body:
+  - type: input
+    id: name
+    attributes:
+      label: Name
+      description: What is the name of the service?
+      placeholder: "Discord"
+    validations:
+      required: true
+  - type: input
+    id: url
+    attributes:
+      label: Homepage
+      description: What is the URL of the service?
+      placeholder: "https://discord.com"
+    validations:
+      required: true
+  - type: input
+    id: api-docs
+    attributes:
+      label: API Documentation
+      description: What is the URL of the service's API documentation?
+      placeholder: "https://discord.com/developers/docs/resources/webhook#execute-webhook"
+    validations:
+      required: true
+  - type: dropdown
+    id: contribution
+    attributes:
+      label: Contribution
+      description: Are you planning to contribute a PR for this service in the near future?
+      options:
+        - "I'm planning to contribute a PR in the near future"
+        - "I'm not planning to contribute a PR in the near future"
+    validations:
+      required: true
+  - type: textarea
+    id: extra-info
+    attributes:
+      label: Extra Info
+      description: Add any other context about the service here.

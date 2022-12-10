@@ -1,0 +1,49 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.32421.90
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Naprise", "Naprise\Naprise.csproj", "{4FF56F2B-B557-4DA2-B939-8D7E699A1343}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Naprise.Tests", "Naprise.Tests\Naprise.Tests.csproj", "{09DD2A9E-BEFB-4103-91D7-5526A4923E3C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Naprise.DocGenerator", "Naprise.DocGenerator\Naprise.DocGenerator.csproj", "{9F7F40BF-D46F-4FA5-84AB-BE78DE6063F5}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Naprise.Cli", "Naprise.Cli\Naprise.Cli.csproj", "{04483DBC-90DC-4DE2-BBD8-C637C879DB2B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Naprise.Service.MailKit", "Naprise.Service.MailKit\Naprise.Service.MailKit.csproj", "{229E9F5F-A788-4DB7-AD5B-B185FD3F7BE5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4FF56F2B-B557-4DA2-B939-8D7E699A1343}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4FF56F2B-B557-4DA2-B939-8D7E699A1343}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4FF56F2B-B557-4DA2-B939-8D7E699A1343}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4FF56F2B-B557-4DA2-B939-8D7E699A1343}.Release|Any CPU.Build.0 = Release|Any CPU
+		{09DD2A9E-BEFB-4103-91D7-5526A4923E3C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{09DD2A9E-BEFB-4103-91D7-5526A4923E3C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{09DD2A9E-BEFB-4103-91D7-5526A4923E3C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{09DD2A9E-BEFB-4103-91D7-5526A4923E3C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9F7F40BF-D46F-4FA5-84AB-BE78DE6063F5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9F7F40BF-D46F-4FA5-84AB-BE78DE6063F5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9F7F40BF-D46F-4FA5-84AB-BE78DE6063F5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9F7F40BF-D46F-4FA5-84AB-BE78DE6063F5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{04483DBC-90DC-4DE2-BBD8-C637C879DB2B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{04483DBC-90DC-4DE2-BBD8-C637C879DB2B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{04483DBC-90DC-4DE2-BBD8-C637C879DB2B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{04483DBC-90DC-4DE2-BBD8-C637C879DB2B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{229E9F5F-A788-4DB7-AD5B-B185FD3F7BE5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{229E9F5F-A788-4DB7-AD5B-B185FD3F7BE5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{229E9F5F-A788-4DB7-AD5B-B185FD3F7BE5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{229E9F5F-A788-4DB7-AD5B-B185FD3F7BE5}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {BD6195DB-769E-43D4-998A-D601A5B8A3C6}
+	EndGlobalSection
+EndGlobal

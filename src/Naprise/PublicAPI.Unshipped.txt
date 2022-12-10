@@ -1,0 +1,196 @@
+abstract Naprise.NotificationService.NotifyAsync(Naprise.Message! message, System.Threading.CancellationToken cancellationToken = default(System.Threading.CancellationToken)) -> System.Threading.Tasks.Task!
+Naprise.Color
+Naprise.Color.B.get -> byte
+Naprise.Color.B.set -> void
+Naprise.Color.Color(byte red, byte green, byte blue) -> void
+Naprise.Color.Color(int value) -> void
+Naprise.Color.Color(string! hex) -> void
+Naprise.Color.G.get -> byte
+Naprise.Color.G.set -> void
+Naprise.Color.Hex.get -> string!
+Naprise.Color.Hex.set -> void
+Naprise.Color.R.get -> byte
+Naprise.Color.R.set -> void
+Naprise.Color.Value.get -> int
+Naprise.Color.Value.set -> void
+Naprise.CompositeNotifier
+Naprise.CompositeNotifier.CompositeNotifier(System.Collections.Generic.IReadOnlyList<Naprise.INotifier!>! notifiers) -> void
+Naprise.CompositeNotifier.NotifyAsync(Naprise.Message! message, System.Threading.CancellationToken cancellationToken = default(System.Threading.CancellationToken)) -> System.Threading.Tasks.Task!
+Naprise.Format
+Naprise.Format.Html = 3 -> Naprise.Format
+Naprise.Format.Markdown = 2 -> Naprise.Format
+Naprise.Format.Text = 1 -> Naprise.Format
+Naprise.Format.Unknown = 0 -> Naprise.Format
+Naprise.IMessage
+Naprise.IMessage.Html.get -> string?
+Naprise.IMessage.Markdown.get -> string?
+Naprise.IMessage.Text.get -> string?
+Naprise.IMessage.Title.get -> string?
+Naprise.IMessage.Type.get -> Naprise.MessageType
+Naprise.INotifier
+Naprise.INotifier.NotifyAsync(Naprise.Message! message, System.Threading.CancellationToken cancellationToken = default(System.Threading.CancellationToken)) -> System.Threading.Tasks.Task!
+Naprise.Message
+Naprise.Message.Html.get -> string?
+Naprise.Message.Html.set -> void
+Naprise.Message.Markdown.get -> string?
+Naprise.Message.Markdown.set -> void
+Naprise.Message.Message() -> void
+Naprise.Message.Message(Naprise.MessageType type = Naprise.MessageType.None, string? title = null, string? text = null, string? markdown = null, string? html = null) -> void
+Naprise.Message.Text.get -> string?
+Naprise.Message.Text.set -> void
+Naprise.Message.ThrowIfEmpty() -> void
+Naprise.Message.Title.get -> string?
+Naprise.Message.Title.set -> void
+Naprise.Message.Type.get -> Naprise.MessageType
+Naprise.Message.Type.set -> void
+Naprise.MessageType
+Naprise.MessageType.Error = 4 -> Naprise.MessageType
+Naprise.MessageType.Info = 1 -> Naprise.MessageType
+Naprise.MessageType.None = 0 -> Naprise.MessageType
+Naprise.MessageType.Success = 2 -> Naprise.MessageType
+Naprise.MessageType.Warning = 3 -> Naprise.MessageType
+Naprise.Naprise
+Naprise.NapriseAsset
+Naprise.NapriseAsset.GetAscii(Naprise.MessageType type) -> string!
+Naprise.NapriseAsset.GetColor(Naprise.MessageType type) -> Naprise.Color!
+Naprise.NapriseAsset.NapriseAsset() -> void
+Naprise.NapriseAsset.NotificationTypeAscii.get -> System.Collections.Generic.Dictionary<Naprise.MessageType, string!>!
+Naprise.NapriseAsset.NotificationTypeAscii.set -> void
+Naprise.NapriseAsset.NotificationTypeColor.get -> System.Collections.Generic.Dictionary<Naprise.MessageType, Naprise.Color!>!
+Naprise.NapriseAsset.NotificationTypeColor.set -> void
+Naprise.NapriseEmptyMessageException
+Naprise.NapriseEmptyMessageException.NapriseEmptyMessageException() -> void
+Naprise.NapriseEmptyMessageException.NapriseEmptyMessageException(string! message) -> void
+Naprise.NapriseEmptyMessageException.NapriseEmptyMessageException(string! message, System.Exception! inner) -> void
+Naprise.NapriseException
+Naprise.NapriseException.NapriseException() -> void
+Naprise.NapriseException.NapriseException(string! message) -> void
+Naprise.NapriseException.NapriseException(string! message, System.Exception! inner) -> void
+Naprise.NapriseInvalidUrlException
+Naprise.NapriseInvalidUrlException.NapriseInvalidUrlException() -> void
+Naprise.NapriseInvalidUrlException.NapriseInvalidUrlException(string! message) -> void
+Naprise.NapriseInvalidUrlException.NapriseInvalidUrlException(string! message, System.Exception! inner) -> void
+Naprise.NapriseNotificationServiceAttribute
+Naprise.NapriseNotificationServiceAttribute.DisplayName.get -> string!
+Naprise.NapriseNotificationServiceAttribute.NapriseNotificationServiceAttribute(string! displayName, params string![]! schemes) -> void
+Naprise.NapriseNotificationServiceAttribute.Schemes.get -> string![]!
+Naprise.NapriseNotificationServiceAttribute.SupportHtml.get -> bool
+Naprise.NapriseNotificationServiceAttribute.SupportHtml.set -> void
+Naprise.NapriseNotificationServiceAttribute.SupportMarkdown.get -> bool
+Naprise.NapriseNotificationServiceAttribute.SupportMarkdown.set -> void
+Naprise.NapriseNotificationServiceAttribute.SupportText.get -> bool
+Naprise.NapriseNotificationServiceAttribute.SupportText.set -> void
+Naprise.NapriseNotifyFailedException
+Naprise.NapriseNotifyFailedException.NapriseNotifyFailedException() -> void
+Naprise.NapriseNotifyFailedException.NapriseNotifyFailedException(string! message) -> void
+Naprise.NapriseNotifyFailedException.NapriseNotifyFailedException(string! message, System.Exception! inner) -> void
+Naprise.NapriseNotifyFailedException.Notification.get -> Naprise.Message?
+Naprise.NapriseNotifyFailedException.Notification.set -> void
+Naprise.NapriseNotifyFailedException.Notifier.get -> Naprise.INotifier?
+Naprise.NapriseNotifyFailedException.Notifier.set -> void
+Naprise.NapriseNotifyFailedException.ResponseBody.get -> string?
+Naprise.NapriseNotifyFailedException.ResponseBody.set -> void
+Naprise.NapriseNotifyFailedException.ResponseStatus.get -> System.Net.HttpStatusCode?
+Naprise.NapriseNotifyFailedException.ResponseStatus.set -> void
+Naprise.NapriseUnknownSchemeException
+Naprise.NapriseUnknownSchemeException.NapriseUnknownSchemeException() -> void
+Naprise.NapriseUnknownSchemeException.NapriseUnknownSchemeException(string! message) -> void
+Naprise.NapriseUnknownSchemeException.NapriseUnknownSchemeException(string! message, System.Exception! inner) -> void
+Naprise.NotificationMessageExtensions
+Naprise.NotificationService
+Naprise.NotificationService.Asset.get -> Naprise.NapriseAsset!
+Naprise.NotificationService.HttpClientFactory.get -> System.Func<System.Net.Http.HttpClient!>!
+Naprise.NotificationService.NotificationService(Naprise.ServiceConfig! config, bool bypassChecks = false) -> void
+Naprise.NotificationServiceApiDocAttribute
+Naprise.NotificationServiceApiDocAttribute.NotificationServiceApiDocAttribute(string! url) -> void
+Naprise.NotificationServiceApiDocAttribute.Url.get -> string!
+Naprise.NotificationServiceWebsiteAttribute
+Naprise.NotificationServiceWebsiteAttribute.NotificationServiceWebsiteAttribute(string! url) -> void
+Naprise.NotificationServiceWebsiteAttribute.Url.get -> string!
+Naprise.QueryParamsExtensions
+Naprise.Service.Apprise
+Naprise.Service.Apprise.Apprise(Naprise.ServiceConfig! config) -> void
+Naprise.Service.Bark
+Naprise.Service.Bark.Bark(Naprise.ServiceConfig! config) -> void
+Naprise.Service.Discord
+Naprise.Service.Discord.Discord(Naprise.ServiceConfig! config) -> void
+Naprise.Service.Gotify
+Naprise.Service.Gotify.Gotify(Naprise.ServiceConfig! config) -> void
+Naprise.Service.Notica
+Naprise.Service.Notica.Notica(Naprise.ServiceConfig! config) -> void
+Naprise.Service.NotifyRun
+Naprise.Service.NotifyRun.NotifyRun(Naprise.ServiceConfig! config) -> void
+Naprise.Service.Ntfy
+Naprise.Service.Ntfy.Ntfy(Naprise.ServiceConfig! config) -> void
+Naprise.Service.OneBot11
+Naprise.Service.OneBot11.OneBot11(Naprise.ServiceConfig! config) -> void
+Naprise.Service.OneBot12
+Naprise.Service.OneBot12.OneBot12(Naprise.ServiceConfig! config) -> void
+Naprise.Service.PushDeer
+Naprise.Service.PushDeer.PushDeer(Naprise.ServiceConfig! config) -> void
+Naprise.Service.PushPlus
+Naprise.Service.PushPlus.PushPlus(Naprise.ServiceConfig! config) -> void
+Naprise.Service.ServerChan
+Naprise.Service.ServerChan.ServerChan(Naprise.ServiceConfig! config) -> void
+Naprise.Service.Telegram
+Naprise.Service.Telegram.Telegram(Naprise.ServiceConfig! config) -> void
+Naprise.ServiceConfig
+Naprise.ServiceConfig.ServiceConfig(Flurl.Url! url, Naprise.NapriseAsset! asset, System.Func<System.Net.Http.HttpClient!>! httpClientFactory) -> void
+Naprise.ServiceRegistry
+Naprise.ServiceRegistry.Add(System.Type! service) -> Naprise.ServiceRegistry!
+Naprise.ServiceRegistry.Add<T>() -> Naprise.ServiceRegistry!
+Naprise.ServiceRegistry.AddDefaultServices() -> Naprise.ServiceRegistry!
+Naprise.ServiceRegistry.Asset.get -> Naprise.NapriseAsset!
+Naprise.ServiceRegistry.Asset.set -> void
+Naprise.ServiceRegistry.Create(System.Collections.Generic.IEnumerable<Flurl.Url!>! serviceUrls) -> Naprise.INotifier!
+Naprise.ServiceRegistry.HttpClient.get -> System.Net.Http.HttpClient?
+Naprise.ServiceRegistry.HttpClient.set -> void
+Naprise.ServiceRegistry.IgnoreInvalidUrl.get -> bool
+Naprise.ServiceRegistry.IgnoreInvalidUrl.set -> void
+Naprise.ServiceRegistry.IgnoreUnknownScheme.get -> bool
+Naprise.ServiceRegistry.IgnoreUnknownScheme.set -> void
+Naprise.ServiceRegistry.ServiceRegistry() -> void
+Naprise.ServiceRegistryExtensions
+override Naprise.Service.Apprise.NotifyAsync(Naprise.Message! message, System.Threading.CancellationToken cancellationToken = default(System.Threading.CancellationToken)) -> System.Threading.Tasks.Task!
+override Naprise.Service.Bark.NotifyAsync(Naprise.Message! message, System.Threading.CancellationToken cancellationToken = default(System.Threading.CancellationToken)) -> System.Threading.Tasks.Task!
+override Naprise.Service.Discord.NotifyAsync(Naprise.Message! message, System.Threading.CancellationToken cancellationToken = default(System.Threading.CancellationToken)) -> System.Threading.Tasks.Task!
+override Naprise.Service.Gotify.NotifyAsync(Naprise.Message! message, System.Threading.CancellationToken cancellationToken = default(System.Threading.CancellationToken)) -> System.Threading.Tasks.Task!
+override Naprise.Service.Notica.NotifyAsync(Naprise.Message! message, System.Threading.CancellationToken cancellationToken = default(System.Threading.CancellationToken)) -> System.Threading.Tasks.Task!
+override Naprise.Service.NotifyRun.NotifyAsync(Naprise.Message! message, System.Threading.CancellationToken cancellationToken = default(System.Threading.CancellationToken)) -> System.Threading.Tasks.Task!
+override Naprise.Service.Ntfy.NotifyAsync(Naprise.Message! message, System.Threading.CancellationToken cancellationToken = default(System.Threading.CancellationToken)) -> System.Threading.Tasks.Task!
+override Naprise.Service.OneBot11.NotifyAsync(Naprise.Message! message, System.Threading.CancellationToken cancellationToken = default(System.Threading.CancellationToken)) -> System.Threading.Tasks.Task!
+override Naprise.Service.OneBot12.NotifyAsync(Naprise.Message! message, System.Threading.CancellationToken cancellationToken = default(System.Threading.CancellationToken)) -> System.Threading.Tasks.Task!
+override Naprise.Service.PushDeer.NotifyAsync(Naprise.Message! message, System.Threading.CancellationToken cancellationToken = default(System.Threading.CancellationToken)) -> System.Threading.Tasks.Task!
+override Naprise.Service.PushPlus.NotifyAsync(Naprise.Message! message, System.Threading.CancellationToken cancellationToken = default(System.Threading.CancellationToken)) -> System.Threading.Tasks.Task!
+override Naprise.Service.ServerChan.NotifyAsync(Naprise.Message! message, System.Threading.CancellationToken cancellationToken = default(System.Threading.CancellationToken)) -> System.Threading.Tasks.Task!
+override Naprise.Service.Telegram.NotifyAsync(Naprise.Message! message, System.Threading.CancellationToken cancellationToken = default(System.Threading.CancellationToken)) -> System.Threading.Tasks.Task!
+readonly Naprise.ServiceConfig.Asset -> Naprise.NapriseAsset!
+readonly Naprise.ServiceConfig.HttpClientFactory -> System.Func<System.Net.Http.HttpClient!>!
+readonly Naprise.ServiceConfig.Url -> Flurl.Url!
+static Naprise.Color.implicit operator int(Naprise.Color! color) -> int
+static Naprise.Color.implicit operator Naprise.Color!(int value) -> Naprise.Color!
+static Naprise.Color.implicit operator Naprise.Color!(string! hex) -> Naprise.Color!
+static Naprise.Color.implicit operator string!(Naprise.Color! color) -> string!
+static Naprise.Message.implicit operator Naprise.Message!(string? title) -> Naprise.Message!
+static Naprise.Naprise.Create(params Flurl.Url![]! urls) -> Naprise.INotifier!
+static Naprise.Naprise.Create(params string![]! urls) -> Naprise.INotifier!
+static Naprise.Naprise.Create(System.Collections.Generic.IEnumerable<Flurl.Url!>! urls) -> Naprise.INotifier!
+static Naprise.Naprise.Create(System.Collections.Generic.IEnumerable<string!>! urls) -> Naprise.INotifier!
+static Naprise.Naprise.DefaultHttpClient.get -> System.Net.Http.HttpClient!
+static Naprise.Naprise.DefaultHttpClient.set -> void
+static Naprise.Naprise.DefaultRegistry.get -> Naprise.ServiceRegistry!
+static Naprise.Naprise.DefaultRegistry.set -> void
+static Naprise.Naprise.NoopNotifier.get -> Naprise.INotifier!
+static Naprise.NotificationMessageExtensions.GenerateAllBodyFormats(this Naprise.Message! message) -> Naprise.Message!
+static Naprise.NotificationMessageExtensions.GetTitleWithFallback(this Naprise.IMessage! message, int maxLengthFromBody = 20) -> string!
+static Naprise.NotificationMessageExtensions.PreferHtmlBody(this Naprise.IMessage! message) -> string?
+static Naprise.NotificationMessageExtensions.PreferMarkdownBody(this Naprise.IMessage! message) -> string?
+static Naprise.NotificationMessageExtensions.PreferTextBody(this Naprise.IMessage! message) -> string?
+static Naprise.QueryParamsExtensions.GetBool(this Flurl.QueryParamCollection! query, string! key, bool? defaultValue = null) -> bool?
+static Naprise.QueryParamsExtensions.GetInt(this Flurl.QueryParamCollection! query, string! key, int? defaultValue = null) -> int?
+static Naprise.QueryParamsExtensions.GetString(this Flurl.QueryParamCollection! query, string! key, string? defaultValue = null) -> string?
+static Naprise.QueryParamsExtensions.GetStringArray(this Flurl.QueryParamCollection! query, string! key) -> string![]!
+static Naprise.ServiceRegistryExtensions.Create(this Naprise.ServiceRegistry! registry, params Flurl.Url![]! urls) -> Naprise.INotifier!
+static Naprise.ServiceRegistryExtensions.Create(this Naprise.ServiceRegistry! registry, params string![]! urls) -> Naprise.INotifier!
+static Naprise.ServiceRegistryExtensions.Create(this Naprise.ServiceRegistry! registry, System.Collections.Generic.IEnumerable<string!>! urls) -> Naprise.INotifier!
+static readonly Naprise.ServiceRegistry.DefaultServices -> System.Collections.Generic.IReadOnlyList<System.Type!>!

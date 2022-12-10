@@ -1,0 +1,448 @@
+[
+  {
+    "name": "Gmail",
+    "host": "smtp.gmail.com",
+    "port": 465,
+    "useSsl": true,
+    "userNameWithDomain": true,
+    "domains": [
+      "gmail.com"
+    ]
+  },
+  {
+    "name": "Outlook",
+    "host": "smtp.office365.com",
+    "port": 587,
+    "useSsl": false,
+    "userNameWithDomain": true,
+    "domains": [
+      "outlook.com",
+      "hotmail.com",
+      "live.com",
+      "outlook.jp",
+      "hotmail.co.jp",
+      "live.jp"
+    ]
+  },
+  {
+    "name": "iCloud",
+    "host": "smtp.mail.me.com",
+    "port": 587,
+    "useSsl": false,
+    "userNameWithDomain": true,
+    "domains": [
+      "icloud.com"
+    ]
+  },
+  {
+    "name": "Yahoo \u30E1\u30FC\u30EB",
+    "host": "smtp.mail.yahoo.co.jp",
+    "port": 465,
+    "useSsl": true,
+    "userNameWithDomain": true,
+    "domains": [
+      "yahoo.co.jp",
+      "ymail.ne.jp"
+    ]
+  },
+  {
+    "name": "Zoho Mail",
+    "host": "smtp.zoho.com",
+    "port": 465,
+    "useSsl": true,
+    "userNameWithDomain": true,
+    "domains": [
+      "zoho.com",
+      "zohomail.com"
+    ]
+  },
+  {
+    "name": "QQ Mail",
+    "host": "smtp.qq.com",
+    "port": 465,
+    "useSsl": true,
+    "userNameWithDomain": true,
+    "domains": [
+      "qq.com",
+      "vip.qq.com",
+      "foxmail.com"
+    ]
+  },
+  {
+    "name": "Netease Mail",
+    "host": "smtp.163.com",
+    "port": 465,
+    "useSsl": true,
+    "userNameWithDomain": true,
+    "domains": [
+      "163.com"
+    ]
+  },
+  {
+    "name": "Netease Mail",
+    "host": "smtp.126.com",
+    "port": 465,
+    "useSsl": true,
+    "userNameWithDomain": true,
+    "domains": [
+      "126.com"
+    ]
+  },
+  {
+    "name": "Netease Mail",
+    "host": "smtp.yeah.net",
+    "port": 465,
+    "useSsl": true,
+    "userNameWithDomain": true,
+    "domains": [
+      "yeah.net"
+    ]
+  },
+  {
+    "name": "Netease Mail",
+    "host": "smtp.vip.163.com",
+    "port": 465,
+    "useSsl": true,
+    "userNameWithDomain": true,
+    "domains": [
+      "vip.163.com"
+    ]
+  },
+  {
+    "name": "Netease Mail",
+    "host": "smtp.vip.126.com",
+    "port": 465,
+    "useSsl": true,
+    "userNameWithDomain": true,
+    "domains": [
+      "vip.126.com"
+    ]
+  },
+  {
+    "name": "Netease Mail",
+    "host": "smtp.188.com",
+    "port": 465,
+    "useSsl": true,
+    "userNameWithDomain": true,
+    "domains": [
+      "188.com"
+    ]
+  },
+  {
+    "name": "139 Mail (China Mobile)",
+    "host": "smtp.139.com",
+    "port": 465,
+    "useSsl": true,
+    "userNameWithDomain": true,
+    "domains": [
+      "139.com"
+    ]
+  },
+  {
+    "name": "189 Mail (China Telecom)",
+    "host": "smtp.189.cn",
+    "port": 465,
+    "useSsl": true,
+    "userNameWithDomain": true,
+    "domains": [
+      "189.cn"
+    ]
+  },
+  {
+    "name": "Wo Mail (China Unicom)",
+    "host": "smtp.wo.cn",
+    "port": 465,
+    "useSsl": true,
+    "userNameWithDomain": true,
+    "domains": [
+      "wo.cn"
+    ]
+  },
+  {
+    "name": "Sohu Mail",
+    "host": "smtp.sohu.com",
+    "port": 465,
+    "useSsl": true,
+    "userNameWithDomain": true,
+    "domains": [
+      "sohu.com"
+    ]
+  },
+  {
+    "name": "Sohu Mail",
+    "host": "smtp.vip.sohu.com",
+    "port": 25,
+    "useSsl": false,
+    "userNameWithDomain": true,
+    "domains": [
+      "vip.sohu.com"
+    ]
+  },
+  {
+    "name": "Sina Mail",
+    "host": "smtp.sina.com",
+    "port": 465,
+    "useSsl": true,
+    "userNameWithDomain": true,
+    "domains": [
+      "sina.com"
+    ]
+  },
+  {
+    "name": "Sina Mail",
+    "host": "smtp.sina.cn",
+    "port": 465,
+    "useSsl": true,
+    "userNameWithDomain": true,
+    "domains": [
+      "sina.cn"
+    ]
+  },
+  {
+    "name": "Sina Mail",
+    "host": "smtp.vip.sina.com",
+    "port": 465,
+    "useSsl": true,
+    "userNameWithDomain": true,
+    "domains": [
+      "vip.sina.com"
+    ]
+  },
+  {
+    "name": "Sina Mail",
+    "host": "smtp.vip.sina.cn",
+    "port": 465,
+    "useSsl": true,
+    "userNameWithDomain": true,
+    "domains": [
+      "vip.sina.cn"
+    ]
+  },
+  {
+    "name": "Tom Mail",
+    "host": "smtp.tom.com",
+    "port": 465,
+    "useSsl": true,
+    "userNameWithDomain": true,
+    "domains": [
+      "tom.com",
+      "vip.tom.com",
+      "163.net",
+      "163vip.com"
+    ]
+  },
+  {
+    "name": "Yandex Mail",
+    "host": "smtp.yandex.com",
+    "port": 465,
+    "useSsl": true,
+    "userNameWithDomain": true,
+    "domains": [
+      "yandex.com",
+      "yandex.net",
+      "ya.ru",
+      "yandex.ru",
+      "yandex.by",
+      "yandex.kz",
+      "yandex.uz",
+      "yandex.fr",
+      "narod.ru"
+    ]
+  },
+  {
+    "name": "Mail.ru",
+    "host": "smtp.mail.ru",
+    "port": 465,
+    "useSsl": true,
+    "userNameWithDomain": true,
+    "domains": [
+      "mail.ru",
+      "inbox.ru",
+      "list.ru",
+      "bk.ru"
+    ]
+  },
+  {
+    "name": "Yahoo Mail",
+    "host": "smtp.mail.yahoo.com",
+    "port": 465,
+    "useSsl": true,
+    "userNameWithDomain": true,
+    "domains": [
+      "yahoo.com",
+      "myyahoo.com",
+      "ymail.com",
+      "y7mail.com",
+      "rocketmail.com",
+      "yahoo.com.ar",
+      "yahoo.com.au",
+      "yahoo.com.br",
+      "yahoo.com.co",
+      "yahoo.com.hk",
+      "yahoo.com.hr",
+      "yahoo.com.mx",
+      "yahoo.com.my",
+      "yahoo.com.pe",
+      "yahoo.com.ph",
+      "yahoo.com.sg",
+      "yahoo.com.tr",
+      "yahoo.com.tw",
+      "yahoo.com.ua",
+      "yahoo.com.ve",
+      "yahoo.com.vn",
+      "yahoo.co.id",
+      "yahoo.co.il",
+      "yahoo.co.in",
+      "yahoo.co.kr",
+      "yahoo.co.nz",
+      "yahoo.co.th",
+      "yahoo.co.uk",
+      "yahoo.co.za",
+      "yahoo.at",
+      "yahoo.be",
+      "yahoo.bg",
+      "yahoo.ca",
+      "yahoo.cl",
+      "yahoo.cz",
+      "yahoo.de",
+      "yahoo.dk",
+      "yahoo.ee",
+      "yahoo.es",
+      "yahoo.fi",
+      "yahoo.fr",
+      "yahoo.gr",
+      "yahoo.hu",
+      "yahoo.ie",
+      "yahoo.in",
+      "yahoo.it",
+      "yahoo.lv",
+      "yahoo.nl",
+      "yahoo.no",
+      "yahoo.pl",
+      "yahoo.pt",
+      "yahoo.ro",
+      "yahoo.se",
+      "yahoo.sk"
+    ]
+  },
+  {
+    "name": "Fastmail",
+    "host": "smtp.fastmail.com",
+    "port": 465,
+    "useSsl": true,
+    "userNameWithDomain": true,
+    "domains": [
+      "123mail.org",
+      "150mail.com",
+      "150ml.com",
+      "16mail.com",
+      "2-mail.com",
+      "4email.net",
+      "50mail.com",
+      "airpost.net",
+      "allmail.net",
+      "cluemail.com",
+      "elitemail.org",
+      "emailcorner.net",
+      "emailengine.net",
+      "emailengine.org",
+      "emailgroups.net",
+      "emailplus.org",
+      "emailuser.net",
+      "eml.cc",
+      "f-m.fm",
+      "fast-email.com",
+      "fast-mail.org",
+      "fastem.com",
+      "fastemailer.com",
+      "fastest.cc",
+      "fastimap.com",
+      "fastmail.cn",
+      "fastmail.co.uk",
+      "fastmail.com",
+      "fastmail.com.au",
+      "fastmail.de",
+      "fastmail.es",
+      "fastmail.fm",
+      "fastmail.fr",
+      "fastmail.im",
+      "fastmail.in",
+      "fastmail.jp",
+      "fastmail.mx",
+      "fastmail.net",
+      "fastmail.nl",
+      "fastmail.org",
+      "fastmail.se",
+      "fastmail.to",
+      "fastmail.tw",
+      "fastmail.uk",
+      "fastmailbox.net",
+      "fastmessaging.com",
+      "fea.st",
+      "fmail.co.uk",
+      "fmailbox.com",
+      "fmgirl.com",
+      "fmguy.com",
+      "ftml.net",
+      "hailmail.net",
+      "imap-mail.com",
+      "imap.cc",
+      "imapmail.org",
+      "inoutbox.com",
+      "internet-e-mail.com",
+      "internet-mail.org",
+      "internetemails.net",
+      "internetmailing.net",
+      "jetemail.net",
+      "justemail.net",
+      "letterboxes.org",
+      "mail-central.com",
+      "mail-page.com",
+      "mailas.com",
+      "mailbolt.com",
+      "mailc.net",
+      "mailcan.com",
+      "mailforce.net",
+      "mailhaven.com",
+      "mailingaddress.org",
+      "mailite.com",
+      "mailmight.com",
+      "mailnew.com",
+      "mailsent.net",
+      "mailservice.ms",
+      "mailup.net",
+      "mailworks.org",
+      "ml1.net",
+      "mm.st",
+      "myfastmail.com",
+      "mymacmail.com",
+      "nospammail.net",
+      "ownmail.net",
+      "petml.com",
+      "postinbox.com",
+      "postpro.net",
+      "proinbox.com",
+      "promessage.com",
+      "realemail.net",
+      "reallyfast.biz",
+      "reallyfast.info",
+      "rushpost.com",
+      "sent.as",
+      "sent.at",
+      "sent.com",
+      "speedpost.net",
+      "speedymail.org",
+      "ssl-mail.com",
+      "swift-mail.com",
+      "the-fastest.net",
+      "the-quickest.com",
+      "theinternetemail.com",
+      "veryfast.biz",
+      "veryspeedy.net",
+      "warpmail.net",
+      "xsmail.com",
+      "yepmail.net",
+      "your-mail.com"
+    ]
+  }
+]

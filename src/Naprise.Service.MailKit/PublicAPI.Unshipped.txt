@@ -1,0 +1,5 @@
+Naprise.Service.MailKit.MailKitEmail
+Naprise.Service.MailKit.MailKitEmail.MailKitEmail(Naprise.ServiceConfig! config) -> void
+Naprise.ServiceRegistryExtensions
+override Naprise.Service.MailKit.MailKitEmail.NotifyAsync(Naprise.Message! message, System.Threading.CancellationToken cancellationToken = default(System.Threading.CancellationToken)) -> System.Threading.Tasks.Task!
+static Naprise.ServiceRegistryExtensions.AddMailKit(this Naprise.ServiceRegistry! registry) -> Naprise.ServiceRegistry!

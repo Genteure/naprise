@@ -1,0 +1,153 @@
+[
+  {
+    "id": "apprise",
+    "name": "Apprise",
+    "format": "text, markdown, html",
+    "schemes": [
+      "apprise",
+      "apprises"
+    ],
+    "website": "https://github.com/caronc/apprise-api",
+    "doc": "https://github.com/caronc/apprise-api#persistent-storage-solution"
+  },
+  {
+    "id": "bark",
+    "name": "Bark",
+    "format": "text",
+    "schemes": [
+      "bark",
+      "barks"
+    ],
+    "website": "https://github.com/Finb/Bark",
+    "doc": "https://github.com/Finb/bark-server/blob/master/docs/API_V2.md"
+  },
+  {
+    "id": "discord",
+    "name": "Discord",
+    "format": "text, markdown",
+    "schemes": [
+      "discord"
+    ],
+    "website": "https://discord.com",
+    "doc": "https://discord.com/developers/docs/resources/webhook#execute-webhook"
+  },
+  {
+    "id": "gotify",
+    "name": "Gotify",
+    "format": "text, markdown",
+    "schemes": [
+      "gotify",
+      "gotifys"
+    ],
+    "website": "https://gotify.net/",
+    "doc": "https://gotify.net/docs/pushmsg"
+  },
+  {
+    "id": "mailkitemail",
+    "name": "Email via MailKit",
+    "format": "text, markdown, html",
+    "schemes": [
+      "email",
+      "smtp",
+      "smtps"
+    ],
+    "website": "https://genteure.github.io/naprise/services/mailkitemail",
+    "doc": "https://genteure.github.io/naprise/services/mailkitemail"
+  },
+  {
+    "id": "notica",
+    "name": "Notica",
+    "format": "text",
+    "schemes": [
+      "notica",
+      "noticas"
+    ],
+    "website": "https://notica.us/",
+    "doc": "https://notica.us/"
+  },
+  {
+    "id": "notifyrun",
+    "name": "notify.run",
+    "format": "text",
+    "schemes": [
+      "notifyrun",
+      "notifyruns"
+    ],
+    "website": "https://notify.run/",
+    "doc": "https://notify.run/"
+  },
+  {
+    "id": "ntfy",
+    "name": "ntfy.sh",
+    "format": "text",
+    "schemes": [
+      "ntfy",
+      "ntfys"
+    ],
+    "website": "https://ntfy.sh/",
+    "doc": "https://docs.ntfy.sh/publish/"
+  },
+  {
+    "id": "onebot11",
+    "name": "OneBot 11",
+    "format": "text",
+    "schemes": [
+      "onebot11",
+      "onebot11s"
+    ],
+    "website": "https://11.onebot.dev/",
+    "doc": "https://github.com/botuniverse/onebot-11/blob/master/api/public.md#send_msg-%E5%8F%91%E9%80%81%E6%B6%88%E6%81%AF"
+  },
+  {
+    "id": "onebot12",
+    "name": "OneBot 12",
+    "format": "text",
+    "schemes": [
+      "onebot12",
+      "onebot12s"
+    ],
+    "website": "https://12.onebot.dev/",
+    "doc": "https://12.onebot.dev/interface/message/actions/#send_message"
+  },
+  {
+    "id": "pushdeer",
+    "name": "PushDeer",
+    "format": "text, markdown",
+    "schemes": [
+      "pushdeer",
+      "pushdeers"
+    ],
+    "website": "https://www.pushdeer.com/",
+    "doc": "https://www.pushdeer.com/dev.html#%E6%8E%A8%E9%80%81%E6%B6%88%E6%81%AF"
+  },
+  {
+    "id": "pushplus",
+    "name": "PushPlus",
+    "format": "text, markdown",
+    "schemes": [
+      "pushplus"
+    ],
+    "website": "https://www.pushplus.plus/",
+    "doc": "https://www.pushplus.plus/doc/guide/api.html"
+  },
+  {
+    "id": "serverchan",
+    "name": "ServerChan",
+    "format": "text, markdown",
+    "schemes": [
+      "serverchan"
+    ],
+    "website": "https://sct.ftqq.com/",
+    "doc": "https://sct.ftqq.com/sendkey"
+  },
+  {
+    "id": "telegram",
+    "name": "Telegram",
+    "format": "text",
+    "schemes": [
+      "telegram"
+    ],
+    "website": "https://telegram.org/",
+    "doc": "https://core.telegram.org/bots/api#sendmessage"
+  }
+]

@@ -1,0 +1,39 @@
+# configuration file for dotnet-releaser
+profile = "custom"
+
+[msbuild]
+project = "Naprise.sln"
+
+[github]
+user = "Genteure"
+repo = "naprise"
+version_prefix = "v"
+
+[[pack]]
+rid = ["win-x64", "win-arm", "win-arm64"]
+kinds = ["zip"]
+[[pack]]
+rid = ["linux-x64", "linux-arm", "linux-arm64"]
+kinds = ["tar"]
+[[pack]]
+rid = ["osx-x64", "osx-arm64"]
+kinds = ["tar"]
+
+[nuget]
+publish = true
+
+[coverage]
+version = "3.2.0"
+format = ["json", "cobertura"]
+deterministic_report = true
+
+[changelog]
+body_template = '''
+# Changes
+
+{{ changes }}
+
+**Full Changelog**: {{ url_full_changelog_compare_changes }}
+
+`naprisecli` is designed to be a way to test the library without having to write a full application, no compatibility between versions is guaranteed.
+'''

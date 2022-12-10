@@ -1,0 +1,6 @@
+T:System.Uri;Use Flurl.Url instead.
+T:System.Web.HttpUtility;Use Flurl.Url for URL manipulations.
+M:System.Net.WebUtility.UrlDecode(System.String);Use Flurl.Url instead.
+M:System.Net.WebUtility.UrlDecodeToBytes(System.Byte[], System.Int32, System.Int32);Use Flurl.Url instead.
+M:System.Net.WebUtility.UrlEncode(System.String);Use Flurl.Url instead.
+M:System.Net.WebUtility.UrlEncodeToBytes(System.Byte[], System.Int32, System.Int32);Use Flurl.Url instead.
