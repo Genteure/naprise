@@ -1,7 +1,7 @@
 <Project>
   <PropertyGroup>
     <Authors>Genteure</Authors>
-    <Copyright>Copyright (c) 2022-2023 Genteure</Copyright>
+    <Copyright>Copyright (c) 2022-2024 Genteure</Copyright>
     <Description>Naprise allows you to easily send notifications to popular messaging services like Telegram, Discord, and more.</Description>
     <PackageProjectUrl>https://github.com/Genteure/naprise</PackageProjectUrl>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>

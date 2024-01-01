@@ -5,7 +5,7 @@ repo_name: Genteure/naprise
 edit_uri: blob/main/docs/
 site_description: A .NET library for sending notifications to various services
 site_author: Genteure
-copyright: Copyright © 2022-2023 Genteure
+copyright: Copyright © 2022-2024 Genteure
 
 strict: !ENV [CI, false]
 
